@@ -9,7 +9,7 @@ export default function Footer() {
       <h2 className='text-3xl text-[#212529]'>Get the freshCart App</h2>
       <p className='text-[#6d767e] font-light mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, recusandae!</p>
       <div className="flex mb-5">
-      <input  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block grow me-3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
+      <input  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block grow me-3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
         <button className='bg-main text-white rounded-md p-2'>Share app Link</button>
       </div>
 

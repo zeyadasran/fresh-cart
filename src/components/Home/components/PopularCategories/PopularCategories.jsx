@@ -33,7 +33,7 @@ export default function PopularCategory() {
       <h2 className='mb-5 text-3xl'>Shop Popular Categories</h2>
        
 <Slider {...settings}>
-    {categories.map(category =><div>
+    {categories.map(category =><div key={category._id}>
       <img src = {category.image} className={styles.categoryImage} alt="" />
     <h4>{category.name}</h4>
     </div>
